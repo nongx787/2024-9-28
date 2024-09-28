@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title style="text-align:center;">表格+链接</title>
+    <style>
+        body {
+        background-image: url('089.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;}
+
+        table{
+          font-family:arial,sans-serif;
+          border-collapse:collapse;
+          width:700px;
+          position:absolute;
+          left:100px;
+          top:100px;
+          margin:0px;
+          background-color:white;}
+
+        td,th{
+          border:1px solid #dddddd;
+          text-align:left;
+          padding:10px;}
+
+        td:hover{
+          background-color:red;}
+
+        tr:nth-child(even){
+          background-color:#dddddd;}
+
+        td a{
+          color:black;
+          text-decoration:none;}
+
+        ul{
+          position:fixed;
+          top:0;
+          z-index:1000;
+          width:100%;
+          margin:0;
+          padding:5px;
+          overflow:hidden;
+          list-style-type:none;
+          background-color:rgba(75,75,75,0.8);}
+
+        li {
+          float: left;}
+
+        li a{
+          display:block;
+          color:white;
+          text-align:center;
+          padding:5px 50px;
+          text-decoration:none;}
+
+        li a:hover{
+          background-color:red;}
+
+        a img {
+          border: none; /* 初始时不显示边框 */}
+
+        a img:hover {
+          border: 2px solid dodgerblue; /* 鼠标悬停时显示边框 */}
+
+        a.new-link{
+          background-color:tomato;
+          color:white;
+          border:none;
+          border-radius:10px;
+          text-decoration:none;
+          padding:10px;
+          position:absolute;
+          top:550px;
+          left:540px;}
+
+        a.new-link:hover{
+          background-color:red;
+          border:2px solid dodgerblue;}
+
+    </style>
+</head>
+<body>
+<h1 title="I'm a tooltip" style="margin:100px;background-color:dodgerblue;color:white;padding:10px;text-align:center;
+width:50%;">What Do You Want To Know About Countries?</h1>
+<div style="margin:100px;width:50%;">
+<p style="color:white;">Hagia Sophia, the main church of the Byzantine Empire, located in Istanbul, Turkey,<br>
+    has a history of nearly 1,500 years, famous for its huge dome, is a representative <br>
+    of Byzantine architecture, the central church of Orthodox Christianity, and a <br>
+    monument to the heyday of the Byzantine Empire.<br>
+    Hagia Sophia is centralized, with a length of 77.0 meters from east to west, 71.0 <br>
+    meters from north to south, and a height of 54.8 meters. It was the third church <br>
+    built by order of the Byzantine Emperor Justinian I in 532 AD. Designed by the<br>
+    physicist Isidore of Miletus and the mathematician Antimus of Trallus, it was <br>
+    completed in 537 AD with the support of the Byzantine state. After 1453, it was <br>
+    occupied by the Turks and converted into a mosque. It was converted into a museum <br>
+    in 1935 and listed as a World Heritage Site in 1985.</p>
+</div>
+<a href="你好.html" title="Learn More About It" target="_self"><img src="034.jpg" alt="youhua" width="350" height="500" style="position: absolute; top: 50px; left: 1000px;"></a>
+<a href="url" class="new-link">Try it Youself!</a>
+<div style="background-color:rgb(230,230,0);position:absolute;left:50px;top:700px;width:900px;height:300px;">
+<h2 style="color:black;position:absolute;left:200px;top:10px;width:100%;">Choose one you like and start your travel!</h2>
+<table>
+    <tr>
+        <th>Company</th>
+        <th>Contact</th>
+        <th>Country</th>
+    </tr>
+    <tr>
+        <td><a href="url">Alfreds Futterkiste</a></td>
+        <td>Maria Anders</td>
+        <td>Germany</td>
+    </tr>
+    <tr>
+        <td>Island Trading</td>
+        <td>Roland Mendel</td>
+        <td>Austria</td>
+    </tr>
+    <tr>
+        <td>Erunst Handel</td>
+        <td>Helen Bennett</td>
+        <td>UK</td>
+    </tr>
+</table>
+</div>
+<ul>
+    <li title="have a look"><a href="url">Home</a></li>
+    <li title="check here"><a href="url">News</a></li>
+    <li title="hallo guy"><a href="url">Contact</a></li>
+    <li title="today is a good day"><a href="url">About</a></li>
+    <li title="let's go"><a href="url" style="margin-left:600px;background-color:red;border-radius:10px;">Individual</a></li>
+</ul>
+<p style="color:white;">2024.9.28</p>
+</body>
+</html>
